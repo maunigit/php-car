@@ -2,8 +2,8 @@
 
 namespace Application;
 
-require_once("PHPUnit/Extensions/AppiumTestCase.php");
-require_once("PHPUnit/Extensions/AppiumTestCase/Element.php");
+use PHPUnit\Extensions\AppiumTestCase;
+use PHPUnit\Extensions\AppiumTestCase\Element;
 
 final class CarTest extends PHPUnit_Extensions_AppiumTestCase {
 

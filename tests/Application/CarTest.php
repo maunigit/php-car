@@ -1,6 +1,5 @@
 <?php
 
-require_once "vendor/autoload.php";
 require_once("PHPUnit/Extensions/AppiumTestCase.php");
 require_once("PHPUnit/Extensions/AppiumTestCase/Element.php");
 

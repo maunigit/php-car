@@ -1,9 +1,11 @@
 <?php
 
+namespace Application;
+
 require_once("PHPUnit/Extensions/AppiumTestCase.php");
 require_once("PHPUnit/Extensions/AppiumTestCase/Element.php");
 
-class CarTest extends PHPUnit_Extensions_AppiumTestCase {
+final class CarTest extends PHPUnit_Extensions_AppiumTestCase {
 
   public static $browsers = array(
     array(
@@ -22,5 +24,7 @@ class CarTest extends PHPUnit_Extensions_AppiumTestCase {
       )    
     )    
   );
+
+  public function testStuff(){
+  }
 }
-?>
